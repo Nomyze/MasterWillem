@@ -24,7 +24,7 @@ async def get_roles(ctx):
 
 
 @client.command()
-async def say(ctx, arg):
+async def sayeth(ctx, arg):
     await ctx.send(arg)
 
 token = input("Insert token: ")
